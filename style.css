@@ -1,0 +1,216 @@
+
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+
+body {
+    
+    background-color: #006699; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+document.body.style.overflow = "hidden";
+
+
+
+
+#cabecalho {
+    height: 100px;
+    width: 100%;
+  
+    margin: 1px -4px 0px 20px;
+    padding: 2% 27% 0%;
+}
+
+#cabecalho img, #cabecalho p {
+    margin-left: 30%;
+}
+
+#menu {
+    margin-top: 10px;
+    height: 60px;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    gap: 250px;
+    /* justify-content: center; */
+    padding: 0% 30% 0%;
+}
+
+#menu a {
+    
+    color:#006699 ;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#corpo {
+    margin-top: 20px; 
+    height: 1000px;
+    width: 100%;
+    background-color: #EEEEEEEE;    
+}
+
+#Texto{
+    margin: 0px 55px 0px 68px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #cccccc;
+}
+
+
+#principal {
+    height: 500px ;
+    width: 400px;
+    background-color: #006699 ;
+    text-align: center;
+    
+}
+
+#rodape {
+    width: 100%;
+    background-color: #0066;
+    text-align: center;
+    margin-top: auto;
+}
+
+ul {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+li {
+    
+    height: 20px;
+    width: max-content;
+    float: left;
+    
+    list-style-type: none;
+    
+}
+
+#logorj {
+    margin: auto;
+    height: 50px;
+    width: 250px;
+    
+    height: auto;
+}
+
+
+
+#barra2 {
+   
+    background-color: #00476B;
+    color: #FFFFFF;
+    
+    font-size: 14px;
+    margin: 0px -4px 0px 0px;
+    padding: 2px 50px 2px 1070px;
+ 
+}
+
+#barra2 a {
+    color: #FFFFFF;
+   
+}
+
+#subcorpo {
+    margin: 10px auto;
+    width: 820px;
+    height: 926px;
+    background-color: #ffffff;
+    text-align: left;
+    border: solid 4px #cccccc ;
+    color: #444444;   
+    box-sizing: content-box;
+   
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav a {
+    color: #444444;   
+}
+
+#listanav {
+    display: flex;
+    flex-direction: column;
+}
+
+#listanav li {
+    border-bottom: dotted 1px rgb(202, 202, 202);
+    padding: 2px;
+    width: 220px;  
+    display: flex;
+    height: max-content;   
+}
+
+#listanav ul {
+    display: inline-block;
+    
+ }
+
+h3 {
+   padding-left: 550px;
+   padding-top: 10px;
+   color: #505050;
+   
+}
+
+h4 {
+    border-bottom: solid 1px rgb(202, 202, 202);
+    padding: 2px;
+    width: 220px;
+    text-align: center;
+    display: flex;
+    height: max-content;
+    background-color: #f6f6f6;
+   
+}
+
+#rodape {
+    color: #ffffff;
+    height: 60px;
+    
+    padding: 60px 25px 25px;
+    background: #006699;
+
+}
+
+#rodape a {
+    color: #FFFFFF;
+
+}
+
+
+input[type=text] {
+    margin-top: 1px;
+    padding: 10px 184px ;
+  
+}
+
+#pesquisa {
+    padding: 14px;
+    
+}
+
+#pesquisa input{
+    padding: 14px 180px;
+}
+
+#conteudoLista{
+    font-size: 12px;
+}
+
+
+

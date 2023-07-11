@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>População - ISPdados Abertos</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Imagens/icon.png" type="image/png">
+</head>
+<body>
+ 
+  
+
+  <header>
+      <div id ="menu">
+       
+
+          <img id="logorj" src="./Imagens/logoEstadoMelhorSemfundo.png"  alt="Logo governo do estado do RJ">
+          <ul>
+            
+            <li> <a href="#">Acesso a informação</a></li>
+            <li> <a href="#">Ir para o Site ISP</a></li>
+            <li> <a href="#">Ir para a busca</a> </li>         
+          </ul>
+        
+      </div>  
+
+       <div id="cabecalho">
+        <a href="#">
+            <img src="./Imagens/logo.png"  alt="ISP Dados Abertos">     
+        </a>
+        <p id="Texto">Instituto de Segurança Pública</p>
+      </div>
+
+        <div id="barra2">
+          <ul>
+            <li> <a href="#">Inicial </a> | </li> 
+            <li> <a href="#">Visualização de Dados  </a> | </li> 
+            <li> <a href="#"> Contato </a></li>
+          </ul>
+        </div>
+      
+      
+  </header>
+
+  <div id="corpo">
+    <main >
+    
+      <a href="#"><h3>Conjunto de Dados</h3></a>
+
+        <div id="subcorpo">
+        <nav>
+        
+        <ul id="listanav">
+          <h4>Divisão por Grupos</h4>
+          <li><button onclick="pesquisaLista()">Estatística de Segurança</button></li>
+          <!-- <span id="conteudoLista"></span> -->
+          <li><a href="#"><p>Divisão territorial de base de segurança</p></a></li>
+          <li><a href="#"><p>Notas Metodológicas e dicionários</p></a></li>
+          <li><a href="#"><p>Informações Institucionais</p></a></li>
+          <li><a href="#"><p>População</p></a></li>
+          <h4>Divisão por Temas</h4>
+          <li><a href="#"><p>Crimes contra a vida</p></a></li>
+          <li><a href="#"><p>UPP</p></a></li>
+          <li><a href="#"><p>Armas</p></a></li>
+          <li><a href="#"><p>Divisão territorial da Base de Segurança</p></a></li>
+          <li><a href="#"><p>Informações Gerais de Segurança Pública</p></a></li> 
+       </ul> 
+
+       
+      <div id="pesquisa">
+          <input  type="text" autocomplete="off" name="pesquisa" placeholder="Pesquisar conjunto de dados...">
+          <br><br>
+          <span id="conteudoLista"></span>
+      </div>
+      </nav>
+      </div>
+ </main>
+</div>
+
+
+<div id="rodape">
+  <footer>
+    <div id="conteudo_rodape">
+      <p>ISP DADOS ABERTOS - <a href="#">Instituto de Segurança Pública</a></p>
+    </div>
+    
+  </footer>
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
